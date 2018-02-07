@@ -1,0 +1,607 @@
+@media only screen and (max-width: 1260px) {
+    .how-it-works {
+        .decor {
+            display: none
+        }
+        .step:nth-child(even) .text-block {
+            margin-left: 30px
+        }
+        .step:nth-child(odd) .text-block {
+            margin-right: 30px
+        }
+        .step .text-block {
+            max-width: 230px
+        }
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .wis-home {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer .footer-inner {
+        width: 100%;
+        padding: 37px 30px
+    }
+    .inner-container {
+        width: 100%;
+    }
+    .benefits-section.what-is-yournurses .description {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .benefit-boxes {
+        .box {
+            max-width: 27%;
+        }
+    }
+    .banner-inner-section {
+        padding: 0 20px
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .what-is-yournurses .horizontal-element {
+        background-image: url(/img/line-horizontal-780.png);
+        width: 708px;
+    }
+    .why-container {
+        padding: 108px 30px 0;
+    }
+    .nurse-pricing-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-about.what-is-yournurses {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .banner-inner-section {
+        .central-section p,
+        .home-decor-container {
+            display: none;
+            .graphic-layer {
+                justify-content: space-between;
+            }
+        }
+        .banner-par-tablet {
+            display: block;
+            padding-bottom: 23px
+        }
+        .central-section {
+            position: absolute;
+            left: 50%;
+            margin-left: -130px;
+            margin-top: 90px;
+        }
+        .graphic-layer {
+            justify-content: space-between
+        }
+    }
+    .db2 {
+        display: none;
+    }
+    .db1 {
+        display: block;
+        margin-left: auto;
+    }
+    .footer .info-block {
+        width: 100%;
+        padding-top: 4px;
+        display: flex;
+    }
+    .footer-inner {
+        flex-wrap: wrap;
+        padding-bottom: 39px;
+        .footer-right {
+            width: 100%
+        }
+        .copyright {
+            text-align: center !important;
+            width: 450px;
+            margin: 0 auto;
+            padding-top: 28px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .normal-paragraph {
+        font-size: 18px
+    }
+    .how-it-works {
+        .step {
+            margin-bottom: 0;
+        }
+        .step:nth-child(odd) .text-block {
+            margin-right: 0;
+        }
+        .step:nth-child(odd) .text-block {
+            padding-left: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .wis-home {
+        .vertical-element {
+            display: none
+        }
+        .boxes .box {
+            width: 340px;
+            padding: 0 10px;
+        }
+        .choices .heading-mediaum {
+            padding-bottom: 20px;
+        }
+        .boxes {
+            .box {
+                p,
+                a {
+                    font-size: 18px
+                }
+            }
+        }
+    }
+    .how-it-works-subsection {
+        padding-top: 43px;
+        padding-bottom: 50px;
+        .block {
+            width: 340px;
+        }
+    }
+    .how-it-works-subsection {
+        width: 100%
+    }
+    .video-container, .video-cover  {
+        width: 100%;
+    }
+    .banner-inner-section {
+        .headings {
+            font-size: 48px
+        }
+    }
+    .decoration-elems {
+        display: none;
+    }
+    .nurse-top-section .headings {
+        font-size: 48px;
+        text-align: center;
+    }
+    .section-banner p {
+        font-size: 18px
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .section-about.what-is-yournurses {
+        padding-top: 63px;
+    }
+    .about-heading {
+        font-size: 56px !important
+    }
+    .logo-place {
+        width: 133px;
+        height: 61px;
+        margin-top: 15px;
+    }
+    .about-text-container { 
+        padding-top: 41px;
+          .normal-paragraph {
+            padding-bottom: 30px;
+          }
+    }
+    .what-is-yournurses {
+        .horizontal-element {
+            background-image: url(/img/line-horizontal-380.png);
+            margin: 60px auto 60px;
+            width: 307px;
+        }
+        .horizontal-element.line1 {
+            margin: 29px auto 55px;
+        }
+    }
+    .nav a {
+        padding: 5px 18px 4px 18px;
+    }
+    .why-box {
+        padding-bottom: 50px;
+    }
+    .nurse-pricing-container {
+        padding-top: 28px;
+    }
+    #price-table {
+        margin-top: 41px;
+    }
+    .why-container {
+        padding: 75px 30px 0;
+        .counter {
+            width: 64px;
+            height: 64px;
+            line-height: 63px;
+            margin-right: 28px;
+        }
+    }
+    .how-it-works-outer {
+        padding: 35px 35px 60px;
+    }
+    .benefit-boxes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .box {
+            max-width: 48%;
+            margin-bottom: 40px;
+        }
+        .box:last-child {
+            margin-bottom: 0
+        }
+    }
+    .what-is-yournurses {
+        padding-top: 58px;
+        padding-bottom: 80px;
+        .description {
+            font-size: 19px;
+            line-height: 30px;
+            padding-bottom: 50px !important;
+            padding-top: 30px;
+        }
+    }
+    .heading {
+        font-size: 26px;
+    }
+    .why-container {
+        padding-bottom: 0;
+    }
+    .how-it-works .step {
+        min-height: auto;
+        .text-block {
+            padding-top: 78px;
+        }
+        .circles {
+            height: 340px;
+            width: 340px;
+            .img1 {
+                width: 340px;
+                height: 340px;
+            }
+            .img2 {
+                width: 290px;
+                height: 290px;
+                left: 26px;
+                top: 26px;
+            }
+            .img3 {
+                width: 245px;
+                height: 245px;
+                top: 48px;
+                left: 48px;
+            }
+            .cover {
+                left: 46px;
+                width: 245px;
+                top: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    #toggleMobileMEnu{
+        display: block !important;
+        position: absolute;
+        top: 18px;
+        right:0;
+        z-index: 100;
+    }
+    .how-it-works-subsection {
+        flex-wrap: wrap;
+        .block {
+            margin: 0 auto
+        }
+    }
+    .sidemenu {
+        display: none
+    }
+    .banner-top-text {
+        display: block
+    }
+    .nurse-top-section {
+        flex-wrap: wrap;
+        .right-block {
+            .headings,
+            p {
+                display: none
+            }
+        }
+    }
+    .section-banner .right-block {
+        width: 100% !important;
+        text-align: center;
+        a {
+            float: none
+        }
+    }
+    .graphic-layer {
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #price-table {
+        width: 320px;
+        font-size: 16px;
+        th:first-child {
+            width: 88px;
+        }
+        th:nth-child(2) {
+            width: 104px;
+        }
+        th {
+            padding: 13px 4px 11px;
+            vertical-align: middle;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .banner-inner-section {
+        .central-section {
+            display: none
+        }
+        .title-place {
+            flex-wrap: wrap;
+            .headings {
+                width: 100%
+            }
+            h5:last-of-type {
+                text-align: right;
+                padding-top: 10px;
+            }
+        }
+    }
+    .btn-tablet {
+        display: block !important;
+        margin: 50px auto 0;
+    }
+    .nurse-pricing-container {
+        text-align: center
+    }
+    .benefit-boxes .box {
+        width: 100%;
+        max-width: 100%;
+        h4 {
+            padding-bottom: 9px;
+        }
+    }
+    .what-is-yournurses .horizontal-element {
+        background-image: url(/img/line-horizontal-380.png);
+        width: 307px;
+    }
+    .how-it-works {
+        width: 340px;
+        .step {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            .text-block {
+                max-width: 340px;
+                padding-top: 19px;
+                text-align: center !important;
+                padding-bottom: 31px !important;
+            }
+        }
+        .step:nth-child(even) {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) { 
+    .banner-inner-section {
+        .title-place {
+            padding-bottom: 15px;
+        }
+        .headings {
+            font-size: 36px;
+        }
+        .banner-par-tablet {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    } 
+    .wis-home  {
+        .choices .heading-mediaum{
+            padding-bottom: 16px;
+        }
+        .boxes {
+            .heading-mediaum {
+                font-size: 16px;
+                
+            }
+            .box {
+                p, a {
+                    font-size: 16px
+                }
+                p {
+                    line-height: 26px;
+                }
+                h4 {
+                    padding-top: 18px;
+                    padding-bottom: 11px;
+                }
+            }
+            
+        } 
+    } 
+    .circles {
+        width: 140px;
+        height: 140px;
+        .img1 {
+            width: 140px;
+            height: 140px;
+        }
+        .img2 {
+            width: 119px;
+            height: 119px;
+            top: 11px;
+            left: 11px;
+        }
+        .img3 {
+            width: 93px;
+            height: 93px;
+            top: 24px;
+            left: 24px;
+        }
+    }
+    .footer .footer-inner {
+        width: 100%;
+        padding: 26px 20px 25px;
+    }
+    .info-block {
+        flex-wrap: wrap;
+    }
+    .footer-left {
+        width: 100%;
+    }
+    .footer {
+        .info-block .links {
+            margin-left: auto;
+        }
+        .download-buttons-section {
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+            margin-top: 26px;
+            .buttons {
+                margin-left: 0;
+                min-width: 260px
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-logo { 
+        margin-right: 20px;
+    }
+    .section-about.what-is-yournurses {
+        padding-top: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-text-container {
+        padding-top: 30px;
+    }
+    .about-heading {
+        font-size: 36px !important;
+    }
+    #toggleMobileMEnu { 
+        top: 8px;
+    }
+    .overlay {
+        width: 100%
+    }
+    .wis-home .description {
+        font-size: 16px;
+    }
+    .banner-par-tablet {
+        padding-bottom: 0 !important;
+    }
+    .btn-tablet {
+        display: block !important;
+        margin: 0 auto; 
+    }
+    .how-it-works .step .circles {
+        margin: 0 auto !important;
+    }
+    #price-table {
+        margin-top: 33px;
+    }
+    .nurse-pricing-container {
+        padding-top: 31px;
+    }
+    .nurse-pricing-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .what-is-yournurses .horizontal-element {
+        margin: 52px auto 37px;
+    }
+    .what-is-yournurses {
+        padding-top: 37px;
+        padding-bottom: 60px;
+    }
+    .why-container {
+        padding: 35px 20px 0;
+        .counter {
+            display: none
+        }
+        p {
+            text-align: center
+        }
+    }
+    .benefits-section.what-is-yournurses .description {
+        font-size: 16px;
+        padding-bottom: 48px !important;
+    }
+    .why-box {
+        padding-bottom: 30px;
+        .text-place .heading-mediaum {
+            text-align: center;
+            padding-bottom: 9px;
+        }
+    }
+    .what-is-yournurses .horizontal-element.line1 {
+        margin: 29px auto 37px;
+    }
+    .how-it-works-outer {
+        padding: 35px 0 21px;
+        overflow: hidden
+    }
+    .how-it-works {
+        width: 100%;
+        .step {
+            .heading-mediaum {
+                padding-bottom: 8px;
+            }
+            .text-block {
+                max-width: 100%;
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                margin-left: 0 !important;
+            }
+            .circles {
+                margin: 0 auto
+            }
+        }
+    }
+    .normal-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .logo-place {
+        width: 110px;
+        height: 61px;
+        margin-top: 10px;
+    }
+    .nav-bar {
+        height: 70px
+    }
+    .nurse-top-section .headings {
+        font-size: 36px
+    }
+    .section-banner {
+        padding-top: 47px;
+        p {
+            font-size: 16px;
+            padding-top: 5px;
+        }
+    }
+}
