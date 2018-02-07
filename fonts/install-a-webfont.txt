@@ -4,11 +4,11 @@ Installing Webfonts
 2. Add this code to your website:
 
 @font-face {
-    font-family: 'NexaLight';
-    src:url('NexaLight.ttf.woff') format('woff'),
-        url('NexaLight.ttf.svg#NexaLight') format('svg'),
-        url('NexaLight.ttf.eot'),
-        url('NexaLight.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'NexaBold';
+    src:url('NexaBold.ttf.woff') format('woff'),
+        url('NexaBold.ttf.svg#NexaBold') format('svg'),
+        url('NexaBold.ttf.eot'),
+        url('NexaBold.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ Installing Webfonts
 Add the font name to your CSS styles. For example:
 
 h1 { 
-   font-family: 'NexaLight';
+   font-family: 'NexaBold';
 }  
 
 Troubleshooting Webfonts
