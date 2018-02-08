@@ -50,13 +50,12 @@ Layout styles
 ------------------------*/
 
 .container {
-    margin: 0 auto;
-    float: left;
+    margin: 0 auto; 
     width: 100%
 }
 
 .inner-container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     position: relative
 }
@@ -76,10 +75,13 @@ Layout styles
     width: 100%;
     background: transparent;
     z-index: 100;
-    height: 90px;
-    max-width: 1170px;
+    height: 65px;
+    max-width: 1200px;
 }
-
+header {
+    border: 3px solid #fcb126;
+}
+     
 .heading {
     font-size: 32px;
     color: #38bbd7;
@@ -244,8 +246,8 @@ Navigation
     margin: 0;
     padding: 0;
     list-style: none;
-    float: right;
-    margin-top: 33px;
+    float: left;
+    margin-top: 18px;
     opacity: 1;
     -webkit-transition: margin-top 0.25s ease-in-out 0.3s, opacity ease-in-out 0.3s;
     transition: margin-top 0.25s ease-in-out 0.3s, opacity ease-in-out 0.3s;
@@ -253,7 +255,9 @@ Navigation
         display: inline;
         float: left;
         margin: 0;
-        margin-right: 2px
+        margin-right: 2px;
+        position: relative;
+        
     }
     li:last-child {
         a {
@@ -261,25 +265,32 @@ Navigation
         }
     }
     a {
-        display: block;
-        font-family: 'roboto-condensed', sans-serif;
-        text-transform: uppercase;
+        display: block; 
+        font-family: 'nexa-bold', sans-serif; 
         padding: 5px 24px 4px 23px;
-        color: #8d9fa0;
+        color: #212124;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 24px;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         border-radius: 5px;
         height: 28px;
         cursor: pointer;
         &:hover {
-            color: #38bbd7;
+            color: #fcb126;
         }
     }
 }
+.vert-elem {
+    width: 3px;
+    height: 17px;
+    position: absolute;
+    display: inline-block;
+    background: black;
+    top: 7px;
+}
 .nav a.active-link {
-    color: #38bbd7;
+    color: #fcb126;
 }
 
 .menu-btn {
@@ -471,11 +482,8 @@ Navigation
      display: none
  }
 .logo-place {
-    width: 143px;
-    height: 65px;
-    float: left;
-    margin-top: 15px; 
-    background: url('/img/logo-svg.svg') no-repeat;
+    width: 230px;
+    margin-top: 15px;
 }
 
 .slider-space {
@@ -509,7 +517,24 @@ Navigation
     color: #F00;
     font-size: 13px;
 }
+.btn { 
+    border-radius: 5px;
+    background-color: #fcb126;
+    width: 300px;
+    height: 90px;
+    z-index: 9;
+    text-transform: uppercase;
+    padding: 26px 30px 17px;
+    color: #ffffff;
+    font-family: 'nexa-bold', serif;
+    font-size: 46px; 
+    &:hover {
+        background-color: #fff;
+        color:  #fcb126;
+    }
+} 
 
+ 
 .success-message {
     font-family: "calibri-regular", sans-serif;
     color: #fff;
