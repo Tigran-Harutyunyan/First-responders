@@ -22,9 +22,17 @@ $(document).ready(function() {
 
     $(".contact-form").validate({
         rules: {
-            contact_name: "required",
-            contact_email: "required",
-            contact_message: "required"
+            company: "required",
+            full_name: "required",
+            contact_message: "required",
+            address: "required",
+            email: "required",
+            phone: "required",
+            street_address:"required",
+            city:"required",
+            job_location: "required",
+            state: "required",
+            zipCode: "required"
         },
         submitHandler: function() {
             toastr.success('The form has been  successfully submited.')
