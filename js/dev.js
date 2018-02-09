@@ -143,3 +143,108 @@ if (OS.name() == 'windows') {
     // this function called at the end of the js file!
     chromeSmoothScroll.init();
 }
+function initMap() {
+    var uluru = {
+        lat: 34.182481, 
+        lng: -118.306491
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: uluru,
+        mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
+        }
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+
+    var customMapType = new google.maps.StyledMapType(
+        [
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": "45"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f89f1e"
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            }
+        ]
+        , {
+            name: 'Custom Style'
+        });
+    var customMapTypeId = 'custom_style';
+    map.mapTypes.set(customMapTypeId, customMapType);
+    map.setMapTypeId(customMapTypeId);
+};
