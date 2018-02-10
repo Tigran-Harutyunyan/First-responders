@@ -69,12 +69,7 @@ $(document).ready(function() {
         "hideMethod": "fadeOut"
     } 
 
-    // ==================================================
-
-    $('.play-btn').click(function() { // play video
-        $('.video-cover').hide();
-        $('#introVideo').get(0).play();
-    })
+    // ================================================== 
 
     $('.hide-popup').click(function() {
         $('.responsive-menu').slideToggle('collapse');
@@ -90,14 +85,12 @@ $(document).ready(function() {
     $('.menu-btn').click(function() {
         $('.responsive-menu').slideToggle('expand')
     });
-    $('[data-remodal-id=modal]').remodal({ hashTracking: false });
+  
 
-
-    $("#closeVideoPopup").on("click", function() {
-        $('#introVideo').get(0).pause();
-    });
-    $(".btnWatchVideo").on("click", function() {
-        calculateVideoPopupPosition();
+    // =============== SCROLL TO PLUGIN ==================
+    $("a[rel='m_PageScroll2id']").mPageScroll2id({
+        offset: 100,
+        highlightClass: "active-menu"
     });
 
     function calculateVideoPopupPosition() {

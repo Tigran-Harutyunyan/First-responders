@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>First Responders</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" lang="en" content="Your Nurses">
-    <meta name="author" content="Your Nurses">
-    <link rel="shortcut icon" href="img/favicon_32px.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- <link rel="stylesheet" href="css/mediaelementplayer.css" /> -->
+    <meta name="Description" lang="en" content="First Responders">
+    <meta name="author" content="First Responders">
+    <!-- <link rel="shortcut icon" href="img/favicon_32px.png"> -->
+    <link rel="stylesheet" href="css/styles.css"> 
 </head>
 
-<body id="home-section">
+<body id="home">
     <div class="mobile-menu-system">
         <button class="hamburger hamburger--collapse" id="toggleMobileMEnu" type="button">
             <span class="hamburger-box">
@@ -24,19 +23,19 @@
             <nav class="overlay-menu">
                 <ul>
                     <li>
-                        <a class="menu-item active-link" href="/">Home</a>
+                        <a class="menu-item active-link" href="#home"  rel="m_PageScroll2id">Home</a>
                     </li>
                     <li>
-                        <a class="menu-item" href="">About us</a>
+                        <a class="menu-item" href="about"  rel="m_PageScroll2id">About us</a>
                     </li>
                     <li>
-                        <a class="menu-item" href="">Services</a></li>
+                        <a class="menu-item" href="services"  rel="m_PageScroll2id">Services</a></li>
                     </li>
                     <li>
-                        <a class="menu-item" href="">Carerrs</a></li>
+                        <a class="menu-item" href="javascript:void">Careers</a></li>
                     </li>
                     <li>
-                        <a class="menu-item" href="">Contact Us</a>
+                        <a class="menu-item" href="contactUs"  rel="m_PageScroll2id">Contact Us</a>
                     </li>
                 </ul>
                 <div class="call-us-block">
@@ -44,10 +43,7 @@
                     </div>
             </nav>
         </div>
-    </div>
-
-
-
+    </div> 
     <div class="main-section container">
         <section class="section-top">
             <div class="banner-container">
@@ -68,14 +64,14 @@
             <nav class="nav-bar">
                 <ul class="nav sidemenu">
                     <li>
-                        <a class="menu-item active-link">Home</a>
+                        <a class="menu-item" href="#home" rel="m_PageScroll2id">Home</a>
                     </li>
                     <li>
-                        <a class="menu-item" href="javascript:void">About us</a>
+                        <a class="menu-item" href="#about" rel="m_PageScroll2id">About us</a>
                         <b class="vert-elem"></b>
                     </li>
                     <li>
-                        <a class="menu-item" href="javascript:void">Services</a>
+                        <a class="menu-item" href="#services" rel="m_PageScroll2id">Services</a>
                         <b class="vert-elem"></b>
                     </li>
                     <li>
@@ -83,7 +79,7 @@
                         <b class="vert-elem"></b>
                     </li>
                     <li>
-                        <a class="menu-item" href="javascript:void">Contact Us</a>
+                        <a class="menu-item" href="#contacts" rel="m_PageScroll2id">Contact Us</a>
                         <b class="vert-elem"></b>
                     </li>
                 </ul>
@@ -91,9 +87,8 @@
                     <a href="tel:+1-818-813" id="callButton"><img class="call-us-btn" src="/img/phone.png"></span> <span class="tel-caption">1 818-813-6000</span></a> 
                 </div>
             </nav>
-            
         </header>
-        <div class="about-section">
+        <div class="about-section" id="about">
             <div class="about-inner inner-container">
                 <img class="logo-place" src="/img/logo.png">
                 <div class="about-texts">
@@ -169,7 +164,7 @@
                 </p>
             </div>
         </div>
-        <div class="services-section2">
+        <div class="services-section2" id="services">
             <div class="services-inner2">
                 <div class="service-item" style="background-image:url(/img/service1.png)">
                     <div class="back-shadow">
@@ -294,7 +289,7 @@
         <!-- MAP -->
         <div class="map-container" id="map"></div>
         <!-- CONTACTS -->
-        <div class="contacts-section">
+        <div class="contacts-section" id="contacts">
             <div class="form-container inner-container">
                 <div class="form-blocks">
                     <form action="" class="contact-form" name="contact-form">
