@@ -241,7 +241,7 @@ Navigation
     padding: 0;
     list-style: none;
     float: left;
-    margin-top: 18px;
+    margin-top: 16px;
     opacity: 1;
     -webkit-transition: margin-top 0.25s ease-in-out 0.3s, opacity ease-in-out 0.3s;
     transition: margin-top 0.25s ease-in-out 0.3s, opacity ease-in-out 0.3s;
@@ -273,6 +273,33 @@ Navigation
             color: #fcb126;
         }
     }
+}
+
+.overlay-menu {
+    .tel-caption {
+        display: inline-block
+    }
+    #callButton {
+        display: inline-flex;
+        color: white
+    }
+}
+
+#callButton {
+    font-size: 30px;
+    font-family: "nexa-bold";
+    color: #212124;
+    float: right;
+    padding-top: 17px;
+}
+
+.call-us-btn {
+    margin-right: 10px;
+}
+
+.tel-caption {
+    margin-top: 1px;
+    display: inline-block;
 }
 
 .vert-elem {
@@ -354,7 +381,7 @@ Navigation
 .overlay {
     position: fixed;
     top: 0;
-    width: 330px;
+    width: 100%;
     opacity: 1;
     visibility: hidden;
     height: 1024px;
@@ -367,12 +394,14 @@ Navigation
     .call-us-block {
         opacity: 0
     }
+    .tel-caption {
+        margin-top: 3px;
+    }
     &.open {
         .call-us-block {
-            margin: 361px auto 72px;
+            padding-left: 74px;
             position: relative;
-            width: 136px;
-            -webkit-transition: opacity 0.2s linear 0.9s;
+            width: 212px;
             transition: opacity 0.2s linear 0.9s;
             opacity: 1;
         }
@@ -454,7 +483,7 @@ Navigation
                     font-family: "nexa-bold", sans-serif;
                     font-size: 20px;
                     text-decoration: none;
-                    overflow: hidden; 
+                    overflow: hidden;
                     padding-bottom: 42px;
                     line-height: 20px;
                     &:hover {
@@ -471,13 +500,17 @@ Navigation
 
 .hamburger-inner,
 .hamburger-inner::before,
-.hamburger-inner::after { 
+.hamburger-inner::after {
     width: 30px;
     background-color: #fcb126;
 }
-.hamburger--collapse.is-active .hamburger-inner::before, .hamburger--collapse.is-active .hamburger-inner::after, .hamburger-inner {
+
+.hamburger--collapse.is-active .hamburger-inner::before,
+.hamburger--collapse.is-active .hamburger-inner::after,
+.hamburger-inner {
     background-color: #fcb126
 }
+
 #toggleMobileMEnu {
     display: none
 }
@@ -521,7 +554,7 @@ Navigation
 
 .btn {
     border-radius: 5px;
-    background-color: #fcb126; 
+    background-color: #fcb126;
     z-index: 9;
     text-transform: uppercase;
     padding: 20px 27px 15px;
@@ -652,7 +685,6 @@ Navigation
 .contact-form {
     display: flex;
     margin: 0 auto;
-      
     >div {
         flex-shrink: 0
     }
@@ -848,8 +880,6 @@ Navigation
 .img-layer {
     width: 100%
 }
-
- 
 
 .social-icons svg {
     width: 31px;
