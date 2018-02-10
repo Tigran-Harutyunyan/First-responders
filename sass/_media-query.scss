@@ -1,16 +1,94 @@
+@media only screen and (max-width: 1620px) {
+    .services-inner {
+        .back-shadow {
+            padding: 23% 12% 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .services-inner .service-item {
+        .back-shadow {
+            padding: 18% 10% 0;
+        }
+        h3 {
+            font-size: 21px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 22px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    .banner-texts {
+        top: 50px;
+        h1 {
+            font-size: 88px;
+            line-height: 98px
+        }
+    }
+    .banner-img,
+    .banner-dark-stripe {
+        min-height: 700px;
+    }
+    .services-inner2 {
+        .back-shadow {
+            padding: 10%;
+        }
+        h3 {
+            font-size: 22px;
+            padding-bottom: 22px;
+        }
+        ul li {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}
+
 @media only screen and (max-width: 1260px) {
-    .how-it-works {
-        .decor {
-            display: none
+    .services-inner .service-item {
+        .back-shadow {
+            padding: 18% 10% 0;
         }
-        .step:nth-child(even) .text-block {
-            margin-left: 30px
+        h3 {
+            font-size: 19px;
         }
-        .step:nth-child(odd) .text-block {
-            margin-right: 30px
+        p {
+            font-size: 15px;
+            line-height: 22px;
         }
-        .step .text-block {
-            max-width: 230px
+    }
+    .about-inner {
+        width: 860px !important;
+        .logo-place {
+            width: 180px;
+            height: 100%;
+        }
+        .about-texts {
+            max-width: 675px;
+            p {
+                max-width: 480px;
+            }
+        }
+    }
+    .about-section {
+        h2 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .services-inner2 {
+        h3 {
+            font-size: 18px;
+            padding-bottom: 16px;
+        }
+        ul li {
+            font-size: 18px;
         }
     }
 }
@@ -26,6 +104,8 @@
     }
     .inner-container {
         width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .benefits-section.what-is-yournurses .description {
         padding-left: 30px;
@@ -38,6 +118,45 @@
     }
     .banner-inner-section {
         padding: 0 20px
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .services-inner .service-item {
+        .back-shadow {
+            padding: 16% 10% 0;
+        }
+        h3 {
+            font-size: 17px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .form-container .contact-form-right {
+        padding-right: 0;
+    }
+    .form-blocks,
+    .contact-form {
+        flex-wrap: wrap;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .services-inner2 {
+        h3 {
+            font-size: 16px;
+            padding-bottom: 14px;
+        }
+        ul li {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .back-shadow {
+            padding: 12%;
+        }
     }
 }
 
@@ -60,6 +179,22 @@
 }
 
 @media only screen and (max-width: 1050px) {
+    .services-inner {
+        flex-wrap: wrap;
+        .service-item:nth-child(1n),
+        .service-item:nth-child(2n),
+        .service-item:nth-child(3n) {
+            width: 33.333333333333336%;
+        }
+        .service-item:nth-child(4n),
+        .service-item:nth-child(5n) {
+            width: 50%;
+            height: 290px;
+        }
+        .service-item .back-shadow {
+            padding: 20% 10% 0;
+        }
+    }
     .banner-inner-section {
         .central-section p,
         .home-decor-container {
@@ -89,11 +224,6 @@
         display: block;
         margin-left: auto;
     }
-    .footer .info-block {
-        width: 100%;
-        padding-top: 4px;
-        display: flex;
-    }
     .footer-inner {
         flex-wrap: wrap;
         padding-bottom: 39px;
@@ -105,6 +235,22 @@
             width: 450px;
             margin: 0 auto;
             padding-top: 28px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .services-inner2 {
+        h3 {
+            font-size: 14px;
+            padding-bottom: 14px;
+        }
+        ul li {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .back-shadow {
+            padding: 13%;
         }
     }
 }
@@ -126,7 +272,98 @@
     }
 }
 
+@media only screen and (max-width: 905px) {
+    .services-inner2 {
+        h3 {
+            font-size: 13px;
+            padding-bottom: 12px;
+        }
+        ul li {
+            font-size: 12px;
+            line-height: 22px;
+        }
+        .back-shadow {
+            padding: 13%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .about-inner {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .banner-texts h1 {
+        font-size: 75px;
+        line-height: 94px;
+    }
+    .banner-img, .banner-dark-stripe {
+        min-height: 580px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .btn {
+        font-size: 34px;
+    }
+    .banner-texts h1 {
+        font-size: 65px;
+        line-height: 90px;
+    }
+    .banner-img, .banner-dark-stripe {
+        min-height: 580px;
+    }
+    .about-inner {
+        padding-top: 0;
+        .logo-place {
+            margin-top: 42px;
+        }
+
+    }
+    .about-section {
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+@media only screen and (max-width: 880px) {
+    .form-blocks,
+    .contact-form {
+        width: 400px;
+    }
+    .form-container {
+        .contact-form-left {
+            padding-right: 0;
+        }
+        .contact-form-right {
+            margin-top: 0;
+        }
+    }
+    .submit2 {
+        display: block
+    }
+    .submit1 {
+        display: none
+    }
+}
+
 @media only screen and (max-width: 840px) {
+    .services-inner2 {
+        h3 {
+            font-size: 12px;
+            padding-bottom: 10px;
+        }
+        ul li {
+            font-size: 12px;
+            line-height: 21px;
+        }
+        .back-shadow {
+            padding: 12%;
+        }
+    }
     .wis-home {
         .vertical-element {
             display: none
@@ -157,7 +394,8 @@
     .how-it-works-subsection {
         width: 100%
     }
-    .video-container, .video-cover  {
+    .video-container,
+    .video-cover {
         width: 100%;
     }
     .banner-inner-section {
@@ -178,6 +416,85 @@
 }
 
 @media only screen and (max-width: 780px) {
+    .nav-bar {
+        height: 33px
+    }
+    .nav {
+        margin-left: 80px;
+        margin-top: 5px;
+        a {
+            padding: 5px 12px 4px 13px;
+            font-size: 14px;
+        }
+    } 
+    .vert-elem {
+        width: 2px;
+        height: 10px; 
+        top: 6px;
+    }
+    .banner-texts {
+        top: 97px;
+        h3 {
+            font-size: 16px;
+            padding-bottom: 25px;
+            padding-top: 23px;
+        }
+        h1 {
+            font-size: 45px;
+            line-height: 60px;
+        }
+    } 
+    .btn {
+        font-size: 20px;
+        padding: 10px 15px 9px;
+    }
+    .banner-img, .banner-dark-stripe {
+        min-height: 420px;
+    }
+    #map{
+        height: 260px
+    }
+    .services-inner {
+        .service-item:nth-child(1n),
+        .service-item:nth-child(2n),
+        .service-item:nth-child(3n) {
+            width: 50%;
+            .back-shadow {
+                padding-top: 30%;
+            }
+        }
+        .service-item:nth-child(4n) {
+            width: 50%;
+            height: 100%;
+            .back-shadow {
+                padding-top: 30%;
+            }
+        }
+        .service-item:nth-child(5n) {
+            width: 100%;
+            background-position: center;
+            .back-shadow {
+                padding-top: 12%;
+            }
+        }
+    }
+    .services-inner2 {
+        flex-wrap: wrap;
+        .service-item {
+            width: 50%
+        }
+        h3 {
+            font-size: 14px;
+            padding-bottom: 29px;
+        }
+        ul li {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .back-shadow {
+            padding: 17%
+        }
+    }
     .section-about.what-is-yournurses {
         padding-top: 63px;
     }
@@ -189,11 +506,11 @@
         height: 61px;
         margin-top: 15px;
     }
-    .about-text-container { 
+    .about-text-container {
         padding-top: 41px;
-          .normal-paragraph {
+        .normal-paragraph {
             padding-bottom: 30px;
-          }
+        }
     }
     .what-is-yournurses {
         .horizontal-element {
@@ -290,22 +607,7 @@
 }
 
 @media only screen and (max-width: 730px) {
-    #toggleMobileMEnu{
-        display: block !important;
-        position: absolute;
-        top: 18px;
-        right:0;
-        z-index: 100;
-    }
-    .how-it-works-subsection {
-        flex-wrap: wrap;
-        .block {
-            margin: 0 auto
-        }
-    }
-    .sidemenu {
-        display: none
-    }
+   
     .banner-top-text {
         display: block
     }
@@ -400,7 +702,10 @@
     }
 }
 
-@media only screen and (max-width: 580px) { 
+@media only screen and (max-width: 580px) {
+    .nav {
+        margin-left: 0
+    }
     .banner-inner-section {
         .title-place {
             padding-bottom: 15px;
@@ -412,18 +717,18 @@
             padding-left: 0;
             padding-right: 0;
         }
-    } 
-    .wis-home  {
-        .choices .heading-mediaum{
+    }
+    .wis-home {
+        .choices .heading-mediaum {
             padding-bottom: 16px;
         }
         .boxes {
             .heading-mediaum {
                 font-size: 16px;
-                
             }
             .box {
-                p, a {
+                p,
+                a {
                     font-size: 16px
                 }
                 p {
@@ -434,29 +739,9 @@
                     padding-bottom: 11px;
                 }
             }
-            
-        } 
-    } 
-    .circles {
-        width: 140px;
-        height: 140px;
-        .img1 {
-            width: 140px;
-            height: 140px;
-        }
-        .img2 {
-            width: 119px;
-            height: 119px;
-            top: 11px;
-            left: 11px;
-        }
-        .img3 {
-            width: 93px;
-            height: 93px;
-            top: 24px;
-            left: 24px;
         }
     }
+  
     .footer .footer-inner {
         width: 100%;
         padding: 26px 20px 25px;
@@ -483,9 +768,26 @@
         }
     }
 }
+@media only screen and (max-width: 500px) { 
+    #toggleMobileMEnu {
+        display: block !important;
+        position: absolute;
+        top: 18px;
+        right: 0;
+        z-index: 100;
+    }
+    
+    header {
+        display: none
+    }
+    .banner-texts {
+        top: 70px;
+    }
+}
+
 
 @media only screen and (max-width: 480px) {
-    .footer-logo { 
+    .footer-logo {
         margin-right: 20px;
     }
     .section-about.what-is-yournurses {
@@ -499,7 +801,7 @@
     .about-heading {
         font-size: 36px !important;
     }
-    #toggleMobileMEnu { 
+    #toggleMobileMEnu {
         top: 8px;
     }
     .overlay {
@@ -513,7 +815,7 @@
     }
     .btn-tablet {
         display: block !important;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
     .how-it-works .step .circles {
         margin: 0 auto !important;

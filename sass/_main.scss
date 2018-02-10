@@ -46,6 +46,7 @@ a {
     background: url("../img/logo3.svg") no-repeat
 }
 
+
 /* -----------------------
 Layout styles
 ------------------------*/
@@ -230,6 +231,7 @@ header {
     }
 }
 
+
 /* -----------------------
 Navigation
 ------------------------*/
@@ -358,7 +360,7 @@ Navigation
     height: 1024px;
     z-index: 50;
     right: 0;
-    background: white;
+    background: url(/img/bg2.png) no-repeat;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     padding-top: 43px;
@@ -448,20 +450,19 @@ Navigation
                 a {
                     display: block;
                     position: relative;
-                    color: #8d9fa0;
-                    font-family: "Roboto Bold Condensed", sans-serif;
-                    font-size: 18px;
+                    color: #fff;
+                    font-family: "nexa-bold", sans-serif;
+                    font-size: 20px;
                     text-decoration: none;
-                    overflow: hidden;
-                    text-transform: uppercase;
+                    overflow: hidden; 
                     padding-bottom: 42px;
                     line-height: 20px;
                     &:hover {
-                        color: #38bbd7;
+                        color: #fcb126;
                     }
                 }
                 a.active-link {
-                    color: #38bbd7;
+                    color: #fcb126;
                 }
             }
         }
@@ -470,11 +471,13 @@ Navigation
 
 .hamburger-inner,
 .hamburger-inner::before,
-.hamburger-inner::after {
-    background-image: url(/img/burger-item.png);
+.hamburger-inner::after { 
     width: 30px;
+    background-color: #fcb126;
 }
-
+.hamburger--collapse.is-active .hamburger-inner::before, .hamburger--collapse.is-active .hamburger-inner::after, .hamburger-inner {
+    background-color: #fcb126
+}
 #toggleMobileMEnu {
     display: none
 }
@@ -518,15 +521,13 @@ Navigation
 
 .btn {
     border-radius: 5px;
-    background-color: #fcb126;
-    width: 300px;
-    height: 90px;
+    background-color: #fcb126; 
     z-index: 9;
     text-transform: uppercase;
-    padding: 26px 30px 17px;
+    padding: 20px 27px 15px;
     color: #ffffff;
     font-family: 'nexa-bold', serif;
-    font-size: 46px;
+    font-size: 45px;
     &:hover {
         background-color: #fff;
         color: #fcb126;
@@ -646,59 +647,67 @@ Navigation
         font-size: 12px;
     }
 }
-.form-blocks, .contact-form {
+
+.form-blocks,
+.contact-form {
     display: flex;
-    > div {
+    margin: 0 auto;
+      
+    >div {
         flex-shrink: 0
     }
 }
+
 .address-place {
-    width: 290px;
+    width: 275px;
+    margin-top: 60px;
     p {
-          font-size: 22px;
+        font-size: 22px;
         font-family: "nexa-light";
         color: rgb(149, 149, 149);
         line-height: 1.091;
+        span {
+            padding-bottom: 23px;
+            display: inline-block
+        }
     }
-       
 }
+
 .social-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 135px;
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left;
-    margin-top: -7px;
-    margin-left: 25px;
+    width: 200px;
+    margin-top: 35px;
+    justify-content: space-between;
     a {
         @extend .sprite;
-        width: 39px;
-        height: 39px;
+        width: 38px;
+        height: 36px;
         -webkit-transition: none;
         transition: none;
         display: block;
-        margin-right: 8px;
     }
     .fb-link {
-        background-position: -50px -179px;
+        background-position: 0 -36px;
     }
     .tw-link {
-        background-position: -50px -219px;
+        background-position: 0 -72px;
     }
     .in-link {
-        background-position: -49px -138px;
+        background-position: 0 0;
     }
     .g-plus-link {
-        background-position: -51px -258px;
+        background-position: 0 -108px;
     }
 }
+
 #map {
     height: 430px;
     width: 100%
 }
-.form-container { 
+
+.form-container {
     label {
         color: #4dbfd7;
         font-size: 16px;
@@ -708,7 +717,7 @@ Navigation
         cursor: pointer;
     }
     .contact-form-right {
-        position: relative;
+        margin-top: 60px;
         label.error {
             top: 161px
         }
@@ -762,7 +771,7 @@ Navigation
     .def-input.error {
         border-color: red
     }
-    label.error{
+    label.error {
         display: none !important
     }
     .btn-submit {
@@ -777,20 +786,22 @@ Navigation
         color: white;
         float: left;
         -webkit-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         font-family: 'nexa-bold', sans-serif;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        line-height: 47px;
+        line-height: 44px;
         -webkit-transition: 0.3s all linear;
         transition: 0.3s all linear;
         &:hover {
             background: #fff;
-            color: rgb(252, 177, 38);;
+            color: rgb(252, 177, 38);
+            ;
         }
     }
 }
+
 .double-elems {
     display: flex;
     input:first-child {
@@ -801,6 +812,7 @@ Navigation
         font-size: 14px !important
     }
 }
+
 .hamburger-blue {
     opacity: 1;
     display: none;
@@ -837,11 +849,7 @@ Navigation
     width: 100%
 }
 
-.footer-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
+ 
 
 .social-icons svg {
     width: 31px;
